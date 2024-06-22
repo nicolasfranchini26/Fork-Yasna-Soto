@@ -21,23 +21,92 @@ ul.nav a:hover {
 
 }
 
-main {
+.cardcontainer {
     display: flex;
-            padding-left: 15em;
-            padding-right: 15em;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 10em;   
+}
+.maincard {
+    max-width: 80em;
+    flex-direction: row;
 
 }
-.card {
-    height: 450px;
-}
+.maincard img {
+    max-width: 50%;
+    margin: auto;
+    padding: 0.5em;
+    border-radius: 1em;
 
-.card h2 {
+
+}
+.maincard h2 {
    color: #322d2c; 
    padding-top: 2em;
 }
 
-.card p {
+.maincard p {
     color: #322d2c;
     padding-top: 2em;
     padding-right: 2em;
 }
+
+.maincard-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-section {
+    max-width: 100%;
+
+}
+
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding-top: 5em;
+}
+
+.row {
+    padding-right: 5em;
+    padding-top: 2em;
+}
+
+.card_educ img {
+    max-width: 50%;
+    padding-left: 2em;
+}
+
+.main_totalcard {
+    padding-left: 3em;
+    padding-bottom: 10em;
+}
+
+section {
+    padding: 5em;
+}
+
+
+footer {
+    background-color: #322d2c;
+    display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+i {
+    color: #e5ddd7;
+    font-size: 200%;
+}
+
+
+footer p {
+    color: #e5ddd7;
+    padding-left: 1em;
+}
+.linkedin {
+    display: flex;
+    padding-right: 1em;
+}
+
